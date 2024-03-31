@@ -55,7 +55,7 @@ def voice(update: Update, context: CallbackContext) -> None:
     update.callback_query.edit_message_text(text="Расшифровка голосового в процессе разработки...")
 
 def main() -> None:
-    updater = Updater("6942758409:AAH3tw35xTYXLjut0g89R3HQH4NM_T917S0")
+    updater = Updater("")
 
     # Добавляем обработчики команд и сообщений
     dispatcher = updater.dispatcher
